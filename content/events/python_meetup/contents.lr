@@ -1,0 +1,21 @@
+_model: event
+---
+name: Python Meetup
+---
+place: Hard Rock Cafe
+---
+address: Grand Place 12A, 1000 Brussels
+---
+pub_date: 2018-10-09 06:00:00
+---
+picture: blank.png
+---
+description:
+> We’re back for another evening of Python filled content & networking. As per usual, we’ll be gathering up at Hard Rock Café Brussels.
+---
+comments: Speakers: to be announced
+---
+keywords: python education, meet up, python, python event
+
+
+

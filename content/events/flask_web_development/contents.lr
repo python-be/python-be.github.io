@@ -1,0 +1,25 @@
+_model: event
+---
+name: Create your website with Flask
+---
+place: Adimian HQ
+---
+address: Rue Royale 87, 1000 Brussels
+---
+pub_date: 2018-06-15 12:00:00
+---
+picture: flask_web_development.jpg
+---
+description:
+> During one evening, we will see how to create a website from scratch with Flask.
+
+> Flask is a micro-framework for Python, with no ORM, or other stuffs, but I will show you how to create a database and a simple web interface for your business.
+
+> Please, come with your laptop and Linux or OSX. You can come with Windows, but we don't have a good experience with Python on Windows.
+---
+comments: Water, Beers and chips will be available.
+---
+keywords: workshop, training, python, python, flask
+
+
+
