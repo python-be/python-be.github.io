@@ -1,0 +1,106 @@
+title: Python, The Belgian Community
+---
+body:
+> Welcome to [Python.be](https://www.python.be),
+  your go-to-place for everything Python in Belgium.
+
+> Whether you are an avid Python enthusiast, just looking to get started
+  or a professional looking for more expertise, you’ve come to the right place.
+
+> When scrolling down you’ll discover which companies are using Python &
+  learn more on Python in the educational landscape. Last but not least,
+  Python.be is your source for any upcoming Python related event.
+
+---
+sections:
+#### education ####
+title: Python in Education
+----
+short:
+The next generation of Pythonistas
+----
+body:
+
+> Over the recent years, Python has evolved from being a background
+  player to a well known & used language within the educational
+  landscape. Today, multiple universities are using Python as a
+  building block for IT & scientific related courses. For example,
+  Python is the main programming language for IT students at the
+  University of Ghent. At the VUB, Python is being used as the main
+  language for the course ‘Introduction to Computer Science”,
+  lectured to students in their Science department. KU Leuven on
+  the other hand is using Python throughout multiple courses
+  (Python as a second language, Data analysis with Python,
+  Computer vision with R & Python, etc.)
+
+> Needless to say, today is a great time to start an education when
+  aiming to learn more about the language. Follow the links below to
+  be directed to each institution’s offerings.
+
+----
+universities:
+
+University of Ghent
+VUB
+KU Leuven
+
+
+#### events ####
+etype: Event Content
+
+
+#### partners ####
+title: They are using Python
+----
+short: Who make it possible!
+----
+body:
+> Python is being used by both small & large-scale companies in Belgium.
+  Big international companies are using Python as a catalyst for their
+  internal tools.
+
+> Next to internal usage, there are a plethora of players on the market
+  using Python to develop their go-to-market-products.
+
+> Finally, the largest group, are Python-based consultancy companies,
+  from scientific computing to web development.
+
+> You are part of the Python community and operate in Belgium ?
+  Get in touch with us to get added to our list (to come) of
+  belgian Python partners & increase your visibility through
+  [python.be](https://www.python.be)
+
+
+#### jobs ####
+title: Job Offers
+----
+short: Coming soon !
+----
+body:
+> Stay Tuned
+
+
+#### testimonials ####
+title: Title Testimonials
+
+##### adimian #####
+_model: testimonial
+-----
+author: Eric Gazoni
+-----
+company: Adimian
+-----
+quote: Thanks to Python, we can develop scientific software in no time, and deploy with ease.
+-----
+picture: adimian.png
+
+##### eyepea #####
+_model: testimonial
+-----
+author: Ludovic Gasc
+-----
+company: Eyepea
+-----
+quote: I created API-Hour to answer the need for a simple, robust, and super-fast server-side environment to build very efficient daemons with ease.
+-----
+picture: eyepea.png

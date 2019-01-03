@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Python, the belgian community</title>
+    <link rel="stylesheet" href="{{ '/static/css/swiper.min.css'|url }}">
+    <link rel="stylesheet" href="{{ '/static/css/styles.css'|url }}">
+    <link rel="author" href="humans.txt">
+    <link rel="apple-touch-icon" sizes="57x57" href="{{ 'img/icons/fav-icon/apple-icon-57x57.png'|url }}">
+    <link rel="apple-touch-icon" sizes="60x60" href="{{ 'img/icons/fav-icon/apple-icon-60x60.png'|url }}">
+    <link rel="apple-touch-icon" sizes="72x72" href="{{ 'img/icons/fav-icon/apple-icon-72x72.png'|url }}">
+    <link rel="apple-touch-icon" sizes="76x76" href="{{ 'img/icons/fav-icon/apple-icon-76x76.png'|url }}">
+    <link rel="apple-touch-icon" sizes="114x114" href="{{ 'img/icons/fav-icon/apple-icon-114x114.png'|url }}">
+    <link rel="apple-touch-icon" sizes="120x120" href="{{ 'img/icons/fav-icon/apple-icon-120x120.png'|url }}">
+    <link rel="apple-touch-icon" sizes="144x144" href="{{ 'img/icons/fav-icon/apple-icon-144x144.png'|url }}">
+    <link rel="apple-touch-icon" sizes="152x152" href="{{ 'img/icons/fav-icon/apple-icon-152x152.png'|url }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ 'img/icons/fav-icon/apple-icon-180x180.png'|url }}">
+    <link rel="icon" type="image/png" sizes="192x192"  href="{{ 'img/icons/fav-icon/android-icon-192x192.png'|url }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ 'img/icons/fav-icon/favicon-32x32.png'|url }}">
+    <link rel="icon" type="image/png" sizes="96x96" href="{{ 'img/icons/fav-icon/favicon-96x96.png'|url }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ 'img/icons/fav-icon/favicon-16x16.png'|url }}">
+    <link rel="manifest" href="{{ '/static/img/icons/fav-icon/manifest.json'|url }}">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="{{ '/static/img/icons/fav-icon/ms-icon-144x144.png'|url }}">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+    {% include 'navbar.html' %}
+
+    {% block body %}{% endblock %}
+
+<section id="events">
+    <div class="section">
+        <div class="block">{{ this.sections.blocks[1] }}</div>
+    </div>
+</section>
+
+
+<section id="education">
+    <div class="section">
+        <div class="block">{{ this.sections.blocks[0] }}</div>
+    </div>
+</section>
+
+
+<section id="joboffers">
+    <div class="section">
+        <div class="block">{{ this.sections.blocks[3] }}</div>
+    </div>
+</section>
+
+<section id="partners">
+    <div class="section">
+        <div class="block">{{ this.sections.blocks[2] }}</div>
+    </div>
+</section>
+
+<footer id="testimonials">
+        <div class="site-inner">
+            <div class="footer-left">
+                <div class="block">{{ this.sections.blocks[4] }}</div>
+            </div>
+
+            <div class="footer-right">
+                <a href="{{ '/'|url }}" class="site-logo">
+                    <span>The belgian community</span>
+                </a>
+                <nav class="nav main-nav" role="navigation">
+                    <ul id="menu-footer">
+                        <li><a href="#events">Events</a></li>
+                        <!-- <li><a href="#blogposts">Blogposts</a></li> -->
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#partners">Python</a></li>
+                        <li><a href="#joboffers">Jobs</a></li>
+                    </ul>
+                </nav>
+                <div>
+                    <p>Managed by the belgian Python community</p>
+                    <!-- <p>Send e-mails to <a href="info@python.be">info@python.be</a>,</p> -->
+                    <p><a href="https://twitter.com/ThePSF" target="_blank" class="link-twitter">@ThePSF</a></p>
+                    <small>© The belgian Python community 2017-<script>document.write(new Date().getFullYear());</script></small>
+                </div>
+            </div>
+        </div>
+</footer>
+
+<script src="{{ '/static/js/lib/jquery-2.2.4.min.js'|url }}"></script>
+<script src="{{ '/static/js/lib/swiper.min.js'|url }}"></script>
+<script src="{{ '/static/js/main.js'|url }}"></script>
+</body>
+</html>

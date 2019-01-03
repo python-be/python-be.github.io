@@ -1,0 +1,62 @@
+<div class="events-block events-block-{{ this.class }}">
+
+    {% set upcoming, past = [], [] %}
+    {% for event in site.query('/events') %}
+        {% if event.pub_date > get_current_date() %}
+            {% do upcoming.append(event) %}
+        {% else %}
+            {% do past.append(event) %}
+        {% endif %}
+    {% endfor %}
+
+    <div class="site-inner">
+        <h1>Upcoming events</h1>
+        <small>What’s happening soon?</small>
+        {% for u_event in upcoming %}
+            <div class="event-wrapper">
+                <div class="event-left">
+                    <div class="event-date">{{ u_event.pub_date.strftime('%b %d, %Y') }}</div>
+                    <div class="event-venue">
+                        <div class="event-place">{{ u_event.place }}</div>
+                        <div class="event-address">{{ u_event.address }}</div>
+                    </div>
+                    <div class="event-schedule">{{ u_event.pub_date.strftime('%I:%M %p') }}</div>
+                </div>
+                <div class="event-right">
+                    <div class="event-name">{{ u_event.name }}</div>
+                    <div class="event-description">{{ u_event.description }}</div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+
+    <div class="site-inner">
+        <h2>Past events</h2>
+        <p>You just missed it! Don't worry more are coming soon!</p>
+        <div class="swiper-container swiper-events">
+            <div class="swiper-wrapper">
+                {% for p_event in past %}
+                <div class="swiper-slide">
+                    <!-- <a href="#"> -->
+                    <div>
+                        <h3>{{ p_event.name }}</h3>
+                        <!-- img format 260x200px -->
+                        {% for image in p_event.attachments.images %}
+                            <div class="image"><img src="{{ image|url }}"></div>
+                        {% endfor %}
+                        <p>{{ p_event.description }}</p>
+                        <!-- <span class="slide-btn">See more</span>  -->
+                    </div>
+                    <!--  </a> -->
+                </div>
+                {% endfor %}
+            </div>
+            <div class="swiper-button-prev sprite" align="left"></div>
+            <div class="swiper-button-next sprite" align="right"></div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-scrollbar"></div>
+        </div>
+    </div>
+</div>
+
+

@@ -1,0 +1,20 @@
+<div class="testimonials-block testimonials-block-{{ this.class }}">
+    <div class="swiper-container swiper-testimonials">
+        <div class="swiper-wrapper">
+            {% for testimonial in site.query('/testimonials') %}
+                <div class="swiper-slide">
+                    {% for image in testimonial.attachments.images %}
+                        <img src="{{ image|url }}">
+                    {% endfor %}
+                    <div class="swiper-txt">
+                        <div class="swiper-quote">{{ testimonial.quote }}</div>
+                        <div class="swiper-company">~ {{ testimonial.author }}</div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+        <div class="swiper-button-prev sprite"></div>
+        <div class="swiper-button-next sprite"></div>
+
+    </div>
+</div>
