@@ -38,7 +38,7 @@
                 {% for p_event in past %}
                 <div class="swiper-slide">
                     <!-- <a href="#"> -->
-                    <div>
+                    <div class="event-name">
                         <h3>{{ p_event.name }}</h3>
                         <!-- img format 260x200px -->
                         {% for image in p_event.attachments.images %}
@@ -51,8 +51,8 @@
                 </div>
                 {% endfor %}
             </div>
-            <div class="swiper-button-prev sprite" align="left"></div>
-            <div class="swiper-button-next sprite" align="right"></div>
+            <div class="swiper-button-prev sprite"></div>
+            <div class="swiper-button-next sprite"></div>
             <div class="swiper-pagination"></div>
             <div class="swiper-scrollbar"></div>
         </div>

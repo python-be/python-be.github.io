@@ -434,7 +434,7 @@ section#intro .site-logo {
 		width: 500px;
 		height: 500px;
 		position: absolute;
-		top: 38%;
+		top: 30%;
 		left: 50%;
 		-webkit-transform: translate(-50%, -50%);
 		-ms-transform: translate(-50%, -50%);
@@ -710,10 +710,16 @@ section#events .site-inner .swiper-container .swiper-wrapper .swiper-slide div .
 	text-align: right
 }
 section#events .site-inner .swiper-container .swiper-button-prev {
-	background-position: -422px 0
+	background-position: -420px 0;
+	-webkit-transform: translate(-35px, 0);
+	-ms-transform: translate(-35px, 0);
+	transform: translate(-35px, 0)
 }
 section#events .site-inner .swiper-container .swiper-button-next {
-	background-position: -450px 0;
+	background-position: -451px 0;
+	-webkit-transform: translate(1050px, 0);
+	-ms-transform: translate(1050px, 0);
+	transform: translate(1050px, 0)
 }
 section#events .site-inner .swiper-container .swiper-pagination-bullet {
 	width: 10px;
@@ -919,22 +925,22 @@ footer .site-inner .footer-left .swiper-testimonials .swiper-wrapper .swiper-sli
 	padding-top: 10px
 }
 footer .site-inner .footer-left .swiper-testimonials .swiper-button-prev {
-	background-position: -455px 0;
+	background-position: -422px 0;
 	top: auto!important;
 	bottom: 10px!important;
 	right: 50px;
 	left: auto!important;
-	-webkit-transform: scale(.7);
-	-ms-transform: scale(.7);
-	transform: scale(.7)
+	-webkit-transform: scale(.6);
+	-ms-transform: scale(.6);
+	transform: scale(.6)
 }
 footer .site-inner .footer-left .swiper-testimonials .swiper-button-next {
-	background-position: -422px 0;
+	background-position: -450px 0;
 	top: auto!important;
 	bottom: 10px!important;
-	-webkit-transform: scale(.7);
-	-ms-transform: scale(.7);
-	transform: scale(.7)
+	-webkit-transform: scale(.6) translate(850px, 0);
+	-ms-transform: scale(.6) translate(850px, 0);
+	transform: scale(.6) translate(850px, 0)
 }
 footer .site-inner .footer-right {
 	padding: 20px;
