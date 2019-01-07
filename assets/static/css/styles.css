@@ -405,16 +405,10 @@ section .site-inner small {
 	}
 }
 section#intro {
-	margin-top: 20px
+	margin-top: 20px;
+	width: 100%;
 }
-@media screen and (min-width: 1200px) {
-	section#intro {
-		width: 100%;
-		margin-top: 50px;
-		height: -webkit-calc(100% - 50px);
-		height: calc(100% - 50px)
-	}
-}
+
 section#intro .site-logo {
 	width: 300px;
 	height: 300px;
@@ -429,31 +423,15 @@ section#intro .site-logo {
 		height: 350px
 	}
 }
-@media screen and (min-width: 1200px) {
-	section#intro .site-logo {
-		width: 500px;
-		height: 500px;
-		position: absolute;
-		top: 30%;
-		left: 50%;
-		-webkit-transform: translate(-50%, -50%);
-		-ms-transform: translate(-50%, -50%);
-		transform: translate(-50%, -50%)
-	}
+
+section#intro .site-intro {
+	display: block;
+	margin: 0 auto;
+	bottom: 10%;
+	top: 60%;
+	left: 50%;
 }
-@media screen and (min-width: 1200px) {
-	section#intro .site-intro {
-		position: absolute;
-		width: 100%;
-		display: block;
-		margin: 0 auto;
-		bottom: 50px;
-		left: 50%;
-		-webkit-transform: translateX(-50%);
-		-ms-transform: translateX(-50%);
-		transform: translateX(-50%)
-	}
-}
+
 section#intro .site-intro a {
 	color: #fbd25c
 }
@@ -473,6 +451,13 @@ section#intro .site-intro p {
 		line-height: 1.6rem
 	}
 }
+@media screen and (max-width: 1200px) {
+	section#intro .site-intro p {
+		font-size: 1rem;
+		line-height: 1.3rem
+	}
+}
+
 section#intro .site-intro p:first-child {
 	color: #9a9a9a
 }
