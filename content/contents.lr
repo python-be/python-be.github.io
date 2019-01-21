@@ -46,7 +46,7 @@ KU Leuven
 
 
 #### events ####
-etype: Event Content
+title: Event Content
 
 
 #### partners ####
@@ -81,26 +81,5 @@ body:
 
 
 #### testimonials ####
-title: Title Testimonials
+title: Testimonials
 
-##### adimian #####
-_model: testimonial
------
-author: Eric Gazoni
------
-company: Adimian
------
-quote: Thanks to Python, we can develop scientific software in no time, and deploy with ease.
------
-picture: adimian.png
-
-##### eyepea #####
-_model: testimonial
------
-author: Ludovic Gasc
------
-company: Eyepea
------
-quote: I created API-Hour to answer the need for a simple, robust, and super-fast server-side environment to build very efficient daemons with ease.
------
-picture: eyepea.png
