@@ -12,7 +12,7 @@
                 <div class="swiper-wrapper">
                     {% for job in job_offers %}
                     <div class="swiper-slide">
-                        <!-- <a href="{{ job|url }}"> -->
+                         <a href="{{ job|url }}">
                             <div class="job-title"><h2>{{ job.job_title }}</h2></div>
                             <div class="job-details">
                                 <h3> Employer: {{ job.company}}</h3>
@@ -22,7 +22,7 @@
                             <div class="job-specs">{{ job.job_specification }}
                                 <!-- <span class="slide-btn">See more</span> -->
                             </div>
-                        <!-- </a> -->
+                         </a>
                     </div>
                     {% endfor %}
                 </div>

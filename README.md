@@ -11,11 +11,16 @@ You, being an individual or an organisation, a learner or an expert, a seeker or
 ## JOIN US
 
 If you are an organisation located in Belgium and using Python, you can officially be a part of the Belgian Community and increase you visibility and collaborations.
+Get in touch with us to be a part of The Belgian Python Community.
 
 ## CONTRIBUTING TO THE WEBSITE
 
-If you are already a part of the Python Belgian Community, you are most welcome to add Events and Job Offers at your site.
-You can contribute by a simple pull/merge-requests.
+If you are already a part of the Python Belgian Community, 
+you are most welcome to add Events and Job Offers at your site.
+You can also add testimonials about how Python and the Community has turned out for you.
+You can add more **Partners** and **Sponsers** to the site, it is really a collective effort to bring up the Community.
+
+You can contribute to website by a simple pull/merge-request mechanism.
 
 The Website is built in **Lektor** that uses beautiful Static Content Management System to build dynamic websites out of flat files. 
 So it is super easy to add more content to it anytime. Infact, there is a UI for this purpose, so you need not dig into the code to find out what does what.
@@ -88,21 +93,32 @@ You can start by cloning the website from:
      
      - These are `.html` pages corresponding to each endpoint.
      
-     - For sections/flowblocks as used in our application, the templates directory contains a sub-directory call `blocks`
+     - For *sections* or *flowblocks* as used in our application, the templates directory contains a sub-directory call `blocks`
        which contains jinja templates for the respective sections.
        
      - Each of these templates `extend` the special template `layout.html` 
        to fetch HTML content common for each template, 
-       and in Lektor, by default `page.html` is accessed as the home page.
+       and in *Lektor*, by default `page.html` is accessed as the home page.
      
 
 **Note:** The Blog functionality is yet unused, Lektor has inbuilt blog functionality, So we can start a blog anytime by just providing a navigation link for it.
+
+### ADDING A NEW PARTNER:
+
+  - Go to `/content/partners/` create a directory with the name of partner.
+  - Create a `contents.lr` file inside this new directory and fill relevant partner information as per other partners' contents.lr
+  - Add logo(.png file) of the company in this directory
+  - Then save and run the application:
+
+        $ lektor server
+  
+  - If everything looks good you can send a merge request and wait for it to be reviewed by the community and finally go live on the website.
 
 ### ADDING A NEW EVENT:
 
   - Go to `/content/events/` create a directory with the name of event.
   - Create a `contents.lr` file inside this new directory and fill relevant event information as per other events' contents.lr
-  - Add attachments(if any)
+  - Add attachments(if any) to this directory
   - Then save and run the application:
 
         $ lektor server
@@ -111,12 +127,23 @@ You can start by cloning the website from:
   
 ### POSTING A NEW JOB OFFER:
 
-  - Go to `/content/jobs/` create a directory with the title of the job.
+  - Go to `/content/jobs/` create a directory with the title of the job(should follow unique constraint for the name of directory so you can combine employer name too).
   - Create a `contents.lr` file inside this new directory and fill relevant information regarding the job.
-    For reference, you can see the **contents.lr** file in the directory called **_Sample_job_Offer_**.
+    There is an extra directory called **_Sample_job_Offer_**, which you can refer to create a new job offer.
+    Or you can simply copy **_Sample_job_Offer_** directory to jobs, **rename** it and **add information** to its `contents.lr file and you are good to go.
   - Then save and run the application:
 
         $ lektor server
   
   - If everything looks good you can send a merge request and wait for it to be reviewed by the community and finally posted on the website.
   
+### ADDING A TESTIMONIAL:
+
+  - Go to `/content/testimonials/` create a directory with the name of company.
+  - Create a `contents.lr` file inside this new directory and fill relevant information and **quote** as per other testimonials' contents.lr
+  - Add logo(.png file) of the company in this directory
+  - Then save and run the application:
+
+        $ lektor server
+  
+  - If everything looks good you can send a merge request and wait for it to be reviewed by the community and finally go live on the website.
