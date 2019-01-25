@@ -54,49 +54,49 @@ You can start by cloning the website from:
   
 ### PROJECT ORGANISATION
 
-  - According to *Lektor*, a project is comprised of following directories at the very basic level:
-  assets, content, models and templates
+According to *Lektor*, a project is comprised of following directories at the very basic level:
+assets, content, models and templates
   
-    #####(i)   assets:
+####   assets:
      
-     - This contains all the static files such as CSS, JS and images
+  - This contains all the static files such as CSS, JS and images
     
-    #####(ii)  content: 
+####   content: 
     
-     - This contains corresponding `contents.lr` file for each page/block of the application.
+  - This contains corresponding `contents.lr` file for each page/block of the application.
     
-     - The `contents.lr` file at **_python-be.github.io/content/contents.lr_** is the global one, meaning that it has the content of the home page.
+  - The `contents.lr` file at **_python-be.github.io/content/contents.lr_** is the global one, meaning that it has the content of the home page.
     
-     - Some of the pages like *events, partners and testimonials* are designed with a Parent-child page approach, 
-       so the main **content** directory has subdirectory for each of these parent blocks 
-       and the parent-block directory has subdirectory for each child. 
+  - Some of the pages like *events, partners and testimonials* are designed with a Parent-child page approach, 
+    so the main **content** directory has subdirectory for each of these parent blocks 
+    and the parent-block directory has subdirectory for each child. 
     
-     - There is a `contents.lr` file corresponding to each child-directory. 
-       For example in **_content/events/fosdem2019_** there is a `contents.lr` file which contains the content of the event 'fosdem2019'. 
+  - There is a `contents.lr` file corresponding to each child-directory. 
+    For example in **_content/events/fosdem2019_** there is a `contents.lr` file which contains the content of the event 'fosdem2019'. 
        
-     - When we have attachments specific to a page or block, we can put them in the respective directory along with its **contents.lr** file. 
-       For example attachments for the event `flask_web_development` will be placed at **_content/events/flask_web_development/_**
+  - When we have attachments specific to a page or block, we can put them in the respective directory along with its **contents.lr** file. 
+    For example attachments for the event `flask_web_development` will be placed at **_content/events/flask_web_development/_**
     
-    #####(iii) models
+####   models
     
-     - This directory contains `.ini` files corresponding to each table/model used in the application.
+  - This directory contains `.ini` files corresponding to each table/model used in the application.
      
-     - Each `.ini` file has some number of fields and respective information for the model fields. 
+  - Each `.ini` file has some number of fields and respective information for the model fields. 
      
-     - In our application, we have different sections on the same page (Home page) which are called `flowblocks` in Lektor.
-       So we have an additional directory **flowblocks** that works same as **models** but this contains 
-       `.ini` files for the **flowblocks** or different sections of the page rather than a new page.
+  - In our application, we have different sections on the same page (Home page) which are called `flowblocks` in Lektor.
+    So we have an additional directory **flowblocks** that works same as **models** but this contains 
+    `.ini` files for the **flowblocks** or different sections of the page rather than a new page.
     
-    #####(iv)  templates
+####   templates
     
-     - This contains **jinja2** templates for each page of the application.
+  - This contains **jinja2** templates for each page of the application.
      
-     - These are `.html` pages corresponding to each endpoint.
+  - These are `.html` pages corresponding to each endpoint.
      
-     - For *sections* or *flowblocks* as used in our application, the templates directory contains a sub-directory call `blocks`
+  - For *sections* or *flowblocks* as used in our application, the templates directory contains a sub-directory called **blocks**
        which contains jinja templates for the respective sections.
        
-     - Each of these templates `extend` the special template `layout.html` 
+  - Each of these templates `extend` the special template `layout.html` 
        to fetch HTML content common for each template, 
        and in *Lektor*, by default `page.html` is accessed as the home page.
      

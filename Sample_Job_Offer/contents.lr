@@ -1,19 +1,19 @@
 _model: job
 ---
-job_title:
+job_title: <Add your Job Title here>
 ---
-company:
+company: <Add your Company Name here>
 ---
-company_website:
+company_website: <Add Link of Company-Website OR Link of Job-Offer-At-Company-Website here>
 ---
-job_location:
+job_location: <Add your Job Location here>
 ---
-job_specification:
+job_specification: <Add complete Job Specification here in Markdown-syntax>
 ---
-required_skills:
+required_skills: <Add Required Skills here in Markdown-syntax>
 ---
-required_experience:
+required_experience: <Add Required Experience and Background here in Markdown-syntax>
 ---
-benefits:
+benefits: <Add Benefits and Offers here in Markdown-syntax>
 ---
-post_date:
+post_date: <Enter Job Posting Date here in format: YYYY-MM-DD>
