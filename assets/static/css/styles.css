@@ -763,6 +763,7 @@ section#education .education-links a {
 		background: #629ac9
 	}
 }
+
 section#joboffers {
 	background: #fff;
 	padding: 40px 0
@@ -786,6 +787,139 @@ section#joboffers p {
 		margin-bottom: 20px
 	}
 }
+section#joboffers .site-inner .job-title h2 {
+	text-align: center;
+	color: #2b6b94;
+	font-size: 1.5rem;
+	margin-bottom: 20px
+}
+section#joboffers .site-inner h3 {
+	text-align: center;
+	color: #444;
+	font-size: 1.3rem;
+	margin-bottom: 20px
+}
+section#joboffers .site-inner h4 {
+	text-align: center;
+	color: #444;
+	font-size: 1.2rem;
+	margin-bottom: 20px
+}
+section#joboffers .site-inner h5 {
+	text-align: center;
+	color: #444;
+	font-size: 1rem;
+	margin-bottom: 20px
+}
+@media screen and (min-width: 640px) {
+	section#joboffers .site-inner h2 {
+		font-size: 1.6rem;
+		margin-bottom: 40px;
+		color: #444
+	}
+}
+section#joboffers .site-inner>p {
+	color: #2b6b94;
+	font-size: 1rem;
+	line-height: 1.5rem;
+	text-align: center;
+	margin-bottom: 20px
+}
+@media screen and (min-width: 640px) {
+	section#joboffers .site-inner>p {
+		font-size: 1.1rem;
+		line-height: 1.5rem;
+		margin-bottom: 40px
+	}
+}
+section#joboffers .site-inner .swiper-container {
+	padding: 0 40px
+}
+@media screen and (min-width: 640px) {
+	section#joboffers .site-inner .swiper-container {
+		padding: 0 80px
+	}
+}
+section#joboffers .site-inner .swiper-container .swiper-wrapper .swiper-slide {
+	padding: 20px;
+	min-height: 300px;
+	background: #fff;
+	margin: 30px 0 50px;
+	-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .1);
+	box-shadow: 0 0 5px rgba(0, 0, 0, .1)
+}
+@media screen and (min-width: 640px) {
+	section#joboffers .site-inner .swiper-container .swiper-wrapper .swiper-slide {
+		border: 4px solid #fff
+	}
+	section#joboffers .site-inner .swiper-container .swiper-wrapper .swiper-slide:hover {
+		cursor: pointer;
+		border: 4px solid #2b6b94;
+		-webkit-box-shadow: 0 0 30px rgba(0, 0, 0, .2);
+		box-shadow: 0 0 30px rgba(0, 0, 0, .2)
+	}
+}
+section#joboffers .site-inner .swiper-container .swiper-wrapper .swiper-slide a,
+section#joboffers .site-inner .swiper-container .swiper-wrapper .swiper-slide div {
+	cursor: pointer;
+	text-decoration: none
+}
+section#joboffers .site-inner .swiper-container .swiper-wrapper .swiper-slide a h3,
+section#joboffers .site-inner .swiper-container .swiper-wrapper .swiper-slide div h3 {
+	text-transform: uppercase;
+	color: #444;
+	font-size: 1.2rem;
+	padding-bottom: 15px
+}
+section#joboffers .site-inner .swiper-container .swiper-wrapper .swiper-slide a img,
+section#joboffers .site-inner .swiper-container .swiper-wrapper .swiper-slide div img {
+	width: 100%;
+	height: auto;
+	margin-bottom: 15px
+}
+section#joboffers .site-inner .swiper-container .swiper-wrapper .swiper-slide a p,
+section#joboffers .site-inner .swiper-container .swiper-wrapper .swiper-slide div p {
+	color: #444;
+	font-size: .9rem;
+	line-height: 1.2rem
+}
+@media screen and (min-width: 640px) {
+	section#joboffers .site-inner .swiper-container .swiper-wrapper .swiper-slide a p,
+	section#joboffers .site-inner .swiper-container .swiper-wrapper .swiper-slide div p {
+		font-size: 1rem;
+		line-height: 1.5rem
+	}
+}
+section#joboffers .site-inner .swiper-container .swiper-wrapper .swiper-slide a .slide-btn,
+section#joboffers .site-inner .swiper-container .swiper-wrapper .swiper-slide div .slide-btn {
+	margin-top: 15px;
+	color: #2b6b94;
+	text-transform: uppercase;
+	display: block;
+	text-align: right
+}
+section#joboffers .site-inner .swiper-container .swiper-button-prev {
+	background-position: -420px 0;
+	-webkit-transform: translate(-35px, 0);
+	-ms-transform: translate(-35px, 0);
+	transform: translate(-35px, 0)
+}
+section#joboffers .site-inner .swiper-container .swiper-button-next {
+	background-position: -451px 0;
+	-webkit-transform: translate(1050px, 0);
+	-ms-transform: translate(1050px, 0);
+	transform: translate(1050px, 0)
+}
+section#joboffers .site-inner .swiper-container .swiper-pagination-bullet {
+	width: 10px;
+	height: 10px;
+	background: #629ac9;
+	opacity: 1
+}
+section#joboffers .site-inner .swiper-container .swiper-pagination-bullet.swiper-pagination-bullet-active {
+	background: #444
+}
+
 section#partners {
 	background: #fff;
 	padding: 40px 0
