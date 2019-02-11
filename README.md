@@ -1,6 +1,6 @@
 # Python - The Belgian Community
 
-As said, [Python.be](www.python.be) is your go-to-place for everything Python in Belgium.
+[Python.be](www.python.be) is your go-to-place for everything Python in Belgium.
 
 Python has achieved remarkable popularity across the world and there are several events taking place from time to time.
 
@@ -11,7 +11,7 @@ You, being an individual or an organisation, a learner or an expert, a seeker or
 ## JOIN US
 
 If you are an organisation located in Belgium and using Python, you can officially be a part of the Belgian Community and increase you visibility and collaborations.
-Get in touch with us to be a part of The Belgian Python Community.
+You may also be interested in participating to our mailing list: https://mail.python.org/pipermail/belgium/
 
 ## CONTRIBUTING TO THE WEBSITE
 
@@ -20,25 +20,18 @@ you are most welcome to add Events and Job Offers at your site.
 You can also add testimonials about how Python and the Community has turned out for you.
 You can add more **Partners** and **Sponsers** to the site, it is really a collective effort to bring up the Community.
 
-You can contribute to website by a simple pull/merge-request mechanism.
+You can contribute to website by a simple pull request mechanism.
 
-The Website is built in **Lektor** that uses beautiful Static Content Management System to build dynamic websites out of flat files. 
-So it is super easy to add more content to it anytime. Infact, there is a UI for this purpose, so you need not dig into the code to find out what does what.
+The Website is built in **Lektor**, a Python framework to build dynamic websites out of flat files. 
+It is super easy to add more content to it anytime. In fact, there is a UI for this purpose, so you need not dig into the code to find out what does what.
 
 For downloading and knowing more about Lektor, you can visit the Official documentation [here.](https://www.getlektor.com)
 
 ### CLONING THE WEBSITE
 
-The website resides on [gitlab.](https://github.com/python-be/python-be.github.io) 
-You can start by cloning the website from:
-
-(i) HTTPS: https://gitlab.adimian.com/website/python-be.github.io.git
-
-(ii) SSH : git@ssh.gitlab.adimian.com:website/python-be.github.io.git
-   - Useful links     
-     - [Generating SSH Keys](https://help.github.com/articles/connecting-to-github-with-ssh/)
-     - [Which url to use](https://help.github.com/articles/which-remote-url-should-i-use/#cloning-with-ssh)
-
+The website resides on [GitHub.](https://github.com/python-be/python-be.github.io)
+- Branch `master` contains the published website
+- Branch `source` contains the Lektor source 
 
 ### ADDING CONTENT 
 
