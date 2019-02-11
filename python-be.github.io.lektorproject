@@ -5,4 +5,4 @@ name = python-be.github.io
 lektor-datetime-helpers = 0.3
 
 [servers.ghpages]
-target = ghpages+https://python-be/python-be.github.io
+target = ghpages+https://python-be/python-be.github.io?cname=python.be
