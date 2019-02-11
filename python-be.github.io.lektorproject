@@ -3,3 +3,6 @@ name = python-be.github.io
 
 [packages]
 lektor-datetime-helpers = 0.3
+
+[servers.ghpages]
+target = ghpages+https://python-be/python-be.github.io
