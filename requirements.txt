@@ -1,2 +1,1 @@
-setuptools==40.6.2
 Lektor==3.3.7
