@@ -10,9 +10,6 @@ on:
   schedule:
     - cron: '23 2 * * *'
 
-env:
-  OUTPUT: _html
-
 jobs:
   build:
     name: Build python.be site
@@ -27,6 +24,6 @@ jobs:
           python -m pip install --upgrade pip setuptools wheel
           python -m pip install -r requirements.txt
       - name: Build python.be site
-        run: lektor build -O '${{ env.OUTPUT }}'
+        run: lektor build
       - name: Deploy to Github Pages
         run: lektor deploy ghpages
