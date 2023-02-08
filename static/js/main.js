@@ -32,12 +32,10 @@ function initSwiperEvents(){
 	    el: '.swiper-pagination',
 	    clickable: true,
 	  },
-    autoplay: {
-    	delay: 2500,
-    	disableOnInteraction: false,
-  	},
+	autoplay: 2500,
+	autoplayDisableOnInteraction: false,
     direction: 'horizontal',
-    loop: true,
+    loop: false,
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
@@ -50,13 +48,11 @@ function initSwiperPartners(){
     spaceBetween: 100,
     direction: 'horizontal',
     pagination: {
-        clickable: true,
-      },
- 	autoplay: {
-    	delay: 1500,
-    	disableOnInteraction: false,
-  	},
-    loop: true,
+	clickable: true,
+	},
+	autoplay: 2500,
+	autoplayDisableOnInteraction: false,
+	loop: true,
   });
 }
 
@@ -66,12 +62,10 @@ function initSwiperTestimonials(){
     spaceBetween: 100,
     direction: 'horizontal',
     pagination: {
-        clickable: true,
-      },
- 	autoplay: {
-    	delay: 3500,
-    	disableOnInteraction: false,
-  	},
+	  clickable: true,
+    },
+	autoplay: 2500,
+	autoplayDisableOnInteraction: false,
     loop: true,
     navigation: {
       nextEl: '.swiper-button-next',
