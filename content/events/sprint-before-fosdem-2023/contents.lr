@@ -1,0 +1,35 @@
+_model: event
+---
+name: Python Sprint before FOSDEM 2023
+---
+place: ULB Solbosch Campus
+---
+address: Avenue Franklin D. Roosevelt 50, 1050 Brussels
+---
+pub_date: 2023-02-01 09:30:00
+---
+picture: blank.png
+---
+description:
+
+>Dear Pythonistas,
+
+> I am planning three days of Sprints in Brussels before FOSDEM, on February 1-2-3, during office hours (there will be plenty of FOSDEM satellite fringe events to attend in the evenings).
+
+> Sprints are a gathering of developers, in this case contributing to Free and Open Source Python software or its ecosystem.
+
+> Register here if you'd like to join for some warm up before FOSDEM:
+> https://www.meetup.com/belgium-python-meetup-aka-aperopythonbe/events/291010204/
+
+> Else see you at the FOSDEM Python devroom on Sunday 5th:
+> https://fosdem.org/2023/schedule/track/python/
+
+---
+comments: See you there
+---
+keywords: fosdem, python, python event, sprint
+---
+
+
+
+

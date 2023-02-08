@@ -1,0 +1,25 @@
+_model: event
+---
+name: FOSDEM 2023
+---
+place: ULB Solbosch Campus
+---
+address: Avenue Franklin D. Roosevelt 50, 1050 Brussels
+---
+pub_date: 2023-02-05 09:30:00
+---
+picture: fosdem_2023.jpg
+---
+description:
+> FOSDEM is a two-day event organised by volunteers to promote the widespread use of free and open source software. Taking place in the beautiful city of Brussels (Belgium), FOSDEM is widely recognised as the best such conference in Europe.
+
+> The event is a free and non-commercial event organised by the community for the community. The goal is to provide free and open source software developers and communities a place to meet.
+---
+comments: See you there
+---
+keywords: fosdem, python, python event
+---
+
+
+
+
